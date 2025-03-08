@@ -1,0 +1,50 @@
+With great power, comes great [strike]responsibility[/strike] FUN!
+
+As the first living symbiot of spider-goat, your ADN gave you strange abilities : You tongue can stick to things and slow them as a web and your feets can stick to every surface!
+
+[b]FEATURES[/b]
+- Spider Goat: Can walk on every surface and use his tongue as a hook.
+
+[b]COMMANDS[/b]
+- [b][R]:[/b] Launch/retract your tongue.
+
+[b]GAMEPAD COMMANDS[/b]
+- [b][Y]:[/b] Launch/retract your tongue.
+
+[b]CHARACTERISTICS[/b]
+- You can walk on any surface (floor, walls, ceiling, etc...)
+- Forward and Back keys make you walk in the direction of the goat, not of the camera.
+- Left and Right keys make you rotate on yourself.
+- If your tongue is attached to a creature, this creature will be slowed as long as it is not ragdolled.
+- When your tongue is attached to an object, as long as you are in the air you will be attracted in the direction of this object.
+- As long as your tongue is attached to something you will not be ragdolled for hitting surfaces really fast.
+- If you go ragdoll when your tongue is attached to something, it will be detached.
+
+[b]EASTER EGGS[/b]
+- [spoiler]If you use your tongue up a wall, retract it completely, and then release it you should stick directly to the wall.[/spoiler]
+- [spoiler]As you stick to the ground, you can reach areas that are considered "out of the map" (be careful not to fall out of the map anyway).[/spoiler]
+
+[b]KNOWN BUGS[/b]
+- Sometimes you can be stuck for no visible reason, jump or turn on yourself to cancel this bug.
+- Jumping cancel your movement speed.
+- If you walk on a static object it will freeze in space and time until you leave it.
+- The camera can act weird when you are upside down in a small area (like inside a house).
+- If you walk on a rotating item the camera angle can go crazy, respawn to fix it.
+
+[b]FAQ[/b]
+[i]Before starting any of the following steps [b]close Goat Simulator[/b][/i].
+
+- How do I use this mod?
+[i]First hit the [+ Subscribe] button on this page to download the mod. After doing that Steam should start downloading the mod (you can see the progress at the bottom of your Steam window), wait for the download to complete before starting your game. In the main menu of the game, select Custom Game, then you will see a list of all the mutators installed on your computer. Click on the mutators you want in this list to add them to your goat.[/i]
+
+- The mod is installed but does nothing when I use it, what should I do?
+[i]Unsubscribe to the mod, Steam will update the game wait for the end of this update before doing the next steps. Open the file "C:\ Program Files (x86) \Steam \SteamApps \common \GoatSimulator \GoatGame \Config \GoatMod.ini" (or "GoatMod") with notepad and delete its content. Read the preview instructions if you want to reinstall the mod.[/i]
+
+- My game is crashing at startup, what do I do?
+[i]Try to follow [url=http://steamcommunity.com/sharedfiles/filedetails/?id=247411111]this guide[/url] and see if it fixed your problem. If not, I don't think I can do anything more sorry.[/i]
+
+[b]DEV NOTES[/b]
+[quote=About this mod]Another mod that tooks a lot more time than I expected when I started it... First of all as I still can't make myself new models or skins, I thought about a way to make a little spider out of existing objects and I came with a nice combination of demon horns and helmet :p I spend a few hours rotating and moving the horns to make some cool looking legs : as I can't see in real time which angle of rotation will have which effect on the object I had to try again and ungain until it was how I wanted it ^^
+For the spider walk itself I discovered that a special physics mode existed for spider movements when messing around with physics so I thought it would not be hard to apply it ot the goat. I was right, all the physic stuff work perfectly alone, but the goat was not rotated to have his feets on the surface it is walking on -_- So I spent several hours trying to find the correct math formulas that will align the goat correctly on every surface you walk. 
+And for the hook tongue, it's the code was already present in the Uncle Goat mutator so that part was really easy ^^
+[/quote]
